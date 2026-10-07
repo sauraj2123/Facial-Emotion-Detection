@@ -1,0 +1,24 @@
+# Dataset (not redistributed - see data/README.md)
+data/*
+!data/README.md
+*.zip
+Facial_emotion_images/
+
+# Saved model weights
+*.h5
+*.keras
+*.tflite
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
